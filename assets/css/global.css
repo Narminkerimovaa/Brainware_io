@@ -1,0 +1,25 @@
+.minimal_header {
+  padding: 25px 0 26px 0;
+}
+.minimal_header .logo {
+  font-family: var(--font-rubik);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.13px;
+  color: var(--primary-black);
+  text-align: center;
+}
+.signup_container{
+    background-color: var(--bground-grey);
+    padding: 125px 0 137px 0
+}
+.signup_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+}
+.signup_head h2{
+
+}
