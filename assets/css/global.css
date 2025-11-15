@@ -10,16 +10,15 @@
   color: var(--primary-black);
   text-align: center;
 }
-.signup_container{
-    background-color: var(--bground-grey);
-    padding: 125px 0 137px 0
+.footer{
+    background-color: var(--primary-black);
 }
-.signup_head{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 34px;
+.footer_logo h1{
+    font-family: var(--font-rubik);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.16px;
+  color: #fff;
 }
-.signup_head h2{
 
-}
