@@ -13,12 +13,51 @@
 .footer{
     background-color: var(--primary-black);
 }
+.footer_container{
+  display: flex;
+}
 .footer_logo h1{
     font-family: var(--font-rubik);
   font-weight: 700;
   font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.16px;
+  color: #fff;
+}
+.footer_logo p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #fff;
+  opacity: 65%;
+  margin: 36px 0 44px 0;
+  width: 43%;
+}
+.footer_logo img{
+width: 142px;
+height: 18px;
+}
+.footer_head{
+  opacity: 65%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #fff;
+}
+.footer_ul{
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.footer_ul li a{
+  padding-left: 0;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 40px;
+  letter-spacing: -0.2px;
   color: #fff;
 }
 
