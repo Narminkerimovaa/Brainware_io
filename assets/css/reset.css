@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --font-roboto: "Roboto", sans-serif;
+    --font-rubik: "Rubik", sans-serif;
+    --primary-black: #161C2D;
+    --button-color: #473BF0;
+    --active-color: #FB6D45;
+    --primary-green: #68D585;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
