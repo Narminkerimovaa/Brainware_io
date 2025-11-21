@@ -87,3 +87,8 @@ input {
     text-decoration: none;
     font-weight: bold;
 }
+@import url('./home.css');
+@import url('./about.css');
+@import url('./login.css');
+@import url('./signup.css');
+@import url('./support.css');
