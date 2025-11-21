@@ -1,0 +1,205 @@
+/* find job section design start */
+.find_job {
+  padding: 113px 0 116.5px;
+  border-bottom: 1px solid var(--border-color);
+}
+.find_job_head {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+}
+.find_job_head h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  color: var(--primary-black);
+}
+.find_job_head p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: var(--primary-black);
+  opacity: 70%;
+  width: 40%;
+  text-align: center;
+}
+.find_job_main {
+  padding-top: 96px;
+  display: flex;
+  gap: 69px;
+}
+.find_job_main img {
+  width: 542px;
+  height: 614px;
+}
+.find_job_info {
+  padding: 86px 0 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.find_job_card {
+  display: flex;
+  gap: 22px;
+}
+.find_job_card_left img {
+  width: 43px;
+  height: 43px;
+}
+.find_parag1 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: var(--primary-black);
+  margin-bottom: 10px;
+}
+.find_parag2 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
+  color: var(--primary-black);
+  opacity: 70%;
+  width: 65%;
+}
+/* news head section start */
+.news_home{
+    padding: 97px 0 140px 0;
+    background-color: var(--bground-grey);
+}
+.news_home_head {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+}
+.news_home_head h5 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  color: var(--primary-black);
+}
+.news_home_head p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: var(--primary-black);
+  opacity: 70%;
+  width: 40%;
+  text-align: center;
+}
+.news_home_cards{
+    display: flex;
+    gap: 21px;
+    padding-top: 74px;
+}
+.news_card img{
+    width: 350px;
+    height: 301px;
+}
+.news_parag1{
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    margin: 22px 0 10px;
+    color: var(--primary-black);
+}
+.news_parag2{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: var(--primary-black);
+    width: 70%;
+}
+/* get updates section design start */
+.get_updates{
+    padding: 120px 0;
+}
+.get_updates_container{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+.get_updates_container img{
+    width: 78px;
+    height: 78px;
+}
+.get_updates_info h6{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    color: var(--primary-black);
+    text-align: center;
+}
+.get_updates_info p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: var(--primary-black);
+    opacity: 70%;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto 0;
+}
+.get_updates_form{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.input_wrapper{
+    display: flex;
+    align-items: center;
+    width: 499px;
+    gap: 12px;
+}
+.get_updates_form form .input_wrapper input{
+    height: 64px;
+    border-radius: 8px;
+    background-color: #fff;
+    outline: none;
+    padding: 0 19px;
+    border: 1px solid var(--border-color);
+    flex: 1;
+}
+.get_updates_form form .input_wrapper input::placeholder{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.18px;
+    color: var(--primary-black);
+}
+.get_updates_form form .input_wrapper button{
+    border-radius: 8px;
+    background-color: var(--button-color);
+    /* buttonun paddingini goture bilmedim normal, benzetdim */
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: -0.6px;
+    color: #fff;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 64px;
+}
+.get_updates_container p{
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: var(--primary-black);
+    width: 28%;
+    text-align: center;
+}

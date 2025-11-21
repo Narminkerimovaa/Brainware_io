@@ -15,9 +15,11 @@
     --active-color: #FB6D45;
     --primary-green: #68D585;
     --bground-grey:#F4F7FA;
+    --border-color:#E7E9ED;
 }
 body{
     font-family: var(--font-roboto);
+    max-width: 1600px;
 }
 
 ul li {
